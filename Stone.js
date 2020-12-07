@@ -4,6 +4,7 @@ class Stone{
         this.body = Bodies.rectangle(x, y, 85, 64, options);
         World.add(world, this.body);
         this.image = loadImage("stone.png");
+        this.width = 85;
     };
 
     display(){
